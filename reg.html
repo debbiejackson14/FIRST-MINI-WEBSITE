@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="registration">
+    <header>
+        <div class="menu">
+            <nav>
+                <a href="index.html" class="navigation" target="_blank">HOME</a>
+                <a href="contact.html" class="navigation" target="_blank">CONTACT</a>
+                <a href="reg.html" class="navigation" target="_blank">REGISTRATION</a>
+                <a href="login.html" class="navigation" target="_blank">LOGIN</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="regform">
+            REGISTRATION FORM  
+        </h1>
+        <form action="mailto:odeborahjackson@gmail.com" name="contactform" target="_blank" method="post">
+            <div class="formbox">
+            <table class="inputforreg">
+                <tr>
+                <td>
+                        <label for="name"> NAME:
+                        </label>
+                        <input type="text" name="fullname" class="class" placeholder="Enter Your Full Name" required>
+                     </td> 
+                </tr>
+                <tr>
+                    <td> 
+
+                        <label for="email"> EMAIL:
+                        </label>
+                        <input type="email" name="emailaddress" class="class" placeholder="Your Email Address" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="telephone">PHONE:
+                        </label>
+                        <input type="tel" name="telephone" class="class" placeholder="(+234)...." required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">GENDER:
+                        </label>
+                        <select name="gender" class="class" required> 
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Prefernottosay">Prefer Not To Say</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                      <label for="country"> COUNTRY:
+                      </label>
+                      <input type="text" name="country" class="class" placeholder="Enter Your Country" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="state">STATE
+                        </label>
+                        <input type="text" name="state" class="class" placeholder="Enter Your State" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">PASSWORD:
+                        </label>
+                        <input type="password" name="password" class="class" placeholder=" Type Password********">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="confirmpassword">CONFIRM PASSWORD:
+                        </label>
+                        <input type="password" name="password" class="class" placeholder="Enter Your Password Again" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                <input type="submit" class="submit" value="REGISTER">
+                   </td>
+            </tr>
+            </table>
+            </form>
+        </div> 
+    </main>
+    <footer class="regfooter">
+        Copyright (c)  Debbie Jackson
+    </footer> 
+</body>
+</html>

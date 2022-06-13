@@ -1,0 +1,417 @@
+/* STYLING MY HOMEPAGE */
+
+#homepage {
+     text-align:center; 
+    background-color: rgb(235, 229, 229);
+    padding: 30px;
+
+}
+
+/* Creating a box in my homepage */
+.homebox {
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 30px grey;
+    height: 100%;
+    
+}
+
+/* Styling the parent of my column/section in the box */
+
+.parent {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+    
+}
+
+/* Styling the left side of the section */
+.debbie {
+    width: 60%;
+    flex: left;
+    text-align: left;
+    margin-left: 40px;
+   
+}
+/* Styling my name (h1) in my homepage  */
+.myself {
+    display: inline;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    
+}
+ /* Styling my first name differently from the rest of my h1 */
+span {
+   color: orange;
+   font-family: cursive;
+
+}
+/* Styling the headings of my list */
+.aboutme {
+    color: black;
+    box-shadow: 0px 5px 0px rgb(233, 155, 10);
+    text-shadow: 3px 3px 5px  yellow;
+    border-radius: 10px;
+    background-color: #faf210;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Creating a different shape for my last unordered list */
+.skill {
+    list-style-type: square;
+}
+
+/* Styling my image */
+.image {
+    width: 50%; 
+}
+
+.myimage {
+    height: 109%;
+    width: 100%;
+    
+}
+
+/* Styling my footer on my homepage */
+.homefooter {
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #faf210;
+    padding: 5px;
+    margin: 20px auto;
+    width: auto;
+
+}   
+
+/* Styling my button  */
+
+.button { 
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+    padding: 10px;
+    box-shadow: 0px 8px 5px grey ;
+    
+    
+}
+
+/* Styling my contact me button when the cursor is on it */
+.button:hover {
+    cursor: pointer;
+    border: 5px solid yellow;
+    background-color: #fef852;
+}
+
+/* STYLING MY CONTACT PAGE */
+#contactme {
+    text-align: center;
+    background-color: white;
+    padding: 10px
+}
+
+
+/* Styling my Navigation Links */
+a{
+    font-family: sans-serif;
+    background-color: #fef852;
+    color: black;
+    font-size: 13px;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    margin: 15px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #FBA10C;
+    background-color: white;
+  
+}
+
+a:hover {
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+}
+
+a:active {
+    text-decoration: none;
+    color: brown;
+
+}
+/* The end of styling my Navigation links */
+
+/* Giving spacing between my nav link & div elements across all pages */
+
+header {
+    padding: 20px;
+}
+
+/* Styling my div class (My background image */
+.bgimage {
+    background-image: url(phone2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 70%;
+    height: 500px;
+    background-attachment: scroll;
+    padding: 100px;
+    text-align: center;  
+    
+}
+
+/* Styling my contact me heading */
+
+.contactme {
+    
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+   background-color: #faf210;
+     
+}
+/* Styling my form */
+.myform {
+    border-spacing: 15px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;   
+}
+
+.form {
+    width: 500px;
+    height: 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+}
+textarea {
+   
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    outline: none;
+    width: 500px;
+    height: 100px;
+    display: block;
+         
+}
+/* Styling my paragraph */
+  .text { 
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+ /* Styling my submit button at the end of the page  */
+.send {
+     margin: 0 auto;
+     padding: 8px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 15px;
+     border: none;
+     font-weight: 600; 
+     background-color: #faf210;
+     border-radius: 5px;
+     box-shadow: 0px 5px 3px black;
+     cursor: pointer;
+     }
+
+
+/* STYLING MY REGISTRATION PAGE */
+
+/* Styling my reg. page & login page background */
+
+#registration, #login {
+  
+    background-image: linear-gradient(360deg, rgb(252, 252, 136), white);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   text-align: center;
+  
+}
+ /* Styling my reg. heading */
+.regform {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+   
+}
+  
+/* Giving my form a background and styling it */
+.formbox {
+    height: 70%;
+    width: 50%;
+    background-color: rgb(0, 0, 0, 0.2);
+    margin: 1px auto;
+    justify-content: center;
+}
+/* Styling my form(Table element) */
+.inputforreg {
+    margin: 0 auto; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: black;
+    width: 75%;
+   
+/*Styling my input types  */  
+}
+.class {
+   outline: none;
+   border: none;
+   margin: 1px;
+   width: 100%;
+   margin: 8px;
+   padding: 10px;
+   background-color: #f5f3c0;
+  
+}
+/* Styling my dropdown list */
+select {
+    width: 10%;
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+
+select:focus, .class:focus {
+    background-color: yellow;
+}
+
+/* Styling my submit button */
+.submit {
+    background-color: #faf210;
+    width: 107%;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 800;
+    
+}
+
+.submit:hover {
+    background-color: #f5f17c;
+    font-style: italic;
+    font-size: large;
+}
+
+
+
+/* Styling my contact page FOOTER */
+.contactfooter {
+    
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #faf210;
+    width: 70%;
+    padding: 5px;
+    margin: auto;
+    border-radius: 10px;
+   
+}
+
+
+/* STLING MY LOGIN PAGE */
+
+/* Creating spacing between my nav links and login form */
+.main {
+    padding: 100px;
+   
+}
+
+/* Giving my form a circle shaped outline */
+.circle {
+    
+    border-radius: 50%;
+    width: 60%;
+    height: 50%;
+    margin: 0 auto;
+    border: 2px solid yellow;
+    padding: 20px;
+  
+   
+}
+/* My login heading */
+.login {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 2px  #faf210;
+}
+
+/* Styling by table */
+.inputforlog {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    font-weight: 800;
+   
+/* Styling my input types */
+}
+.log {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #f5f17c;
+      
+}
+/* Styling my sign in button */
+.signin {
+    background-color: #faf210;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 8px 5px grey ;
+}
+
+/* Styling my sign in button when it is clicked on or the cursor is on it */
+.signin:active , .signin:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 8px 10px black;
+}
+
+/* Styling the footer for my registration and login page*/
+.loginfooter, .regfooter {
+    margin: 90px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: yellow;
+    width: 100%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+ 
+
+
+
+
+
+
+   
+    
+
+ 
